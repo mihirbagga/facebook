@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import {useState} from 'react'
-import Button from '@material-ui/core/Button'
+
 import { FormControl, InputLabel ,Input,FormHelperText} from '@material-ui/core';
 import Mess from './Mess';
 import db from './Firebase'
@@ -11,7 +11,7 @@ import SendIcon from '@material-ui/icons/Send';
 import IconButton from '@material-ui/core/IconButton'
 import PrimarySearchAppBar from './Bar'
 
-function Message()
+function App()
 { 
     const [input,setInput]=useState('');
     const [message,setMessage]=useState([{username:'soony',message:'hi'},
@@ -56,7 +56,7 @@ function Message()
             
             
             <PrimarySearchAppBar username={username}/>
-           <img src='https://en.facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100'/>
+           <img alt=" "src='https://en.facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100'/>
            <h3>Welcome {username}</h3>
            <FlipMove>
            {
@@ -87,4 +87,4 @@ function Message()
 
 
 }
-export default Message;
+export default App;
