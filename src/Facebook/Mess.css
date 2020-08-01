@@ -1,0 +1,43 @@
+.message
+{
+    padding: .5rem;
+    margin: 10px;
+    width: fit-content;
+    
+}
+.message_user
+{
+    
+    margin-left: auto;
+    text-align: left !important;
+    
+}
+.message_usercard
+{
+    background-color: cadetblue !important;
+    
+}
+.message_guest
+{
+    background-color: yellow;
+}
+.app_form
+{
+  
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index:  1;
+    background-color: slategrey;
+    
+}
+.hell
+{
+    width: 100%;
+}
+.app_formc
+{
+    display: flex !important;
+    flex-direction: row !important;
+}
